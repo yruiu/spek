@@ -6,7 +6,7 @@
 </head>
 <body>
 
-<button onclick="speech ()">Слушать</button>
+<button onclick="speech ()">Говоріть</button>
 
 <script>
     // Создаем распознаватель
@@ -16,7 +16,7 @@
     recognizer.interimResults = true;
 
     // Какой язык будем распознавать?
-    recognizer.lang = 'ua-Ua';
+    recognizer.lang = 'ua-Uk';
 
     // Используем колбек для обработки результатов
     recognizer.onresult = function (event) {
